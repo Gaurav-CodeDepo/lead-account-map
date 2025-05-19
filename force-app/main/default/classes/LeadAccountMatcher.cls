@@ -27,7 +27,7 @@ public class LeadAccountMatcher {
                 ];
             } catch (Exception e) {
                 System.debug('Error retrieving Accounts: ' + e.getMessage());
-                return; // Cannot proceed without Accounts
+                return;
             }
 
             // Step 3: Map normalized Account website domains to Account records
